@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on ewd</title>
+    <link>https://ewdiary.github.io/posts/</link>
+    <description>Recent content in Posts on ewd</description>
+    <generator>Hugo -- 0.121.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 04 Aug 2024 22:05:37 +0800</lastBuildDate>
+    <atom:link href="https://ewdiary.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Sample</title>
+      <link>https://ewdiary.github.io/posts/test/</link>
+      <pubDate>Sun, 04 Aug 2024 22:05:37 +0800</pubDate>
+      <guid>https://ewdiary.github.io/posts/test/</guid>
+      <description>Markdown: Syntax Overview Philosophy Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
+Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it&amp;rsquo;s been marked up with tags or formatting instructions. While Markdown&amp;rsquo;s syntax has been influenced by several existing text-to-HTML filters &amp;ndash; including Setext, atx, Textile, reStructuredText, Grutatext, and EtText &amp;ndash; the single biggest source of inspiration for Markdown&amp;rsquo;s syntax is the format of plain text email.</description>
+    </item>
+  </channel>
+</rss>
