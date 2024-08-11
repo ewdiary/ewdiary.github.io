@@ -13,8 +13,15 @@
       <link>https://ewdiary.github.io/posts/test/</link>
       <pubDate>Sun, 04 Aug 2024 22:05:37 +0800</pubDate>
       <guid>https://ewdiary.github.io/posts/test/</guid>
-      <description>Markdown: Syntax Overview Philosophy Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
+      <description>Markdown: 語法 Overview 一二三 Philosophy Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
 Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it&amp;rsquo;s been marked up with tags or formatting instructions. While Markdown&amp;rsquo;s syntax has been influenced by several existing text-to-HTML filters &amp;ndash; including Setext, atx, Textile, reStructuredText, Grutatext, and EtText &amp;ndash; the single biggest source of inspiration for Markdown&amp;rsquo;s syntax is the format of plain text email.</description>
+    </item>
+    <item>
+      <title>Discography</title>
+      <link>https://ewdiary.github.io/disco/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ewdiary.github.io/disco/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
