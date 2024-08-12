@@ -157,10 +157,10 @@
             <div class="cover">
                 <div class="heading">
                     <a href="https://yorushika.com/discography/detail/15/">
-                        <h2>盗作</h2>
+                        <h2>一二三四五</h2>
                     </a>
                 </div>
-                <img src="../album1.jpg" alt="盗作">
+                <img src="../album1.jpg" alt="一二三四五">
                 <div class="caption">
                     <span>2020.07.29 RELEASE</span>
                 </div>
@@ -169,10 +169,10 @@
             <div class="cover">
                 <div class="heading">
                     <a href="#">
-                        <h2>だから僕は音楽を辞めた</h2>
+                        <h2>中文測試</h2>
                     </a>
                 </div>
-                <img src="../album2.jpg" alt="だから僕は音楽を辞めた">
+                <img src="../album2.jpg" alt="中文測試">
                 <div class="caption">
                     <span>2019.04.10 RELEASE</span>
                 </div>
@@ -181,10 +181,10 @@
             <div class="cover">
                 <div class="heading">
                     <a href="#">
-                        <h2>負け犬にアンコールはいらない</h2>
+                        <h2>六七八九十</h2>
                     </a>
                 </div>
-                <img src="../album3.jpg" alt="負け犬にアンコールはいらない">
+                <img src="../album3.jpg" alt="六七八九十">
                 <div class="caption">
                     <span>2018.05.09 RELEASE</span>
                 </div>
@@ -220,44 +220,59 @@
 <style>
 
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap');
 
-    body {
-        font-family: "Noto Sans TC", "Arial", "sans-serif";
-        font-size: 62.5%;
-        margin: 0;
+     
+    :root {
+        --tertiary: rgba(214, 214, 214, 0.8);       
     }
 
-    a {
-        color: white;
+    .dark {
+        --tertiary: rgba(28, 28, 28, 0.8);
+        --border: rgba(28, 28, 28, 0);
+
+    }
+
+     
+
+    .main {
+        max-width: none;                 
+    }
+
+    .page-header {
+       max-width: calc(var(--main-width) + var(--gap) * 2); 
+       text-align: center;
     }
 
     .heading a {
         text-decoration: underline;
-        color: white;
+        color: var(--primary);
     }
 
     .discography {
         width: 100%;
-        max-width: none;
+        max-width: 80%;
         padding: 0;
-        margin-top: 60px;                
+        margin: 60px auto 0;             
         overflow-x: auto;
         text-align: center;              
+        font-family: "Noto Sans TC", "Arial", "sans-serif";      
+        font-size: 10px;
     }
 
     .cover-gallery {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: center;   
         margin: 0;
     }
 
     .cover {
         position: relative;
         overflow: hidden;
-        border: 5px solid black;         
-        width: 220px;
-        height: 220px;
+        border: 5px solid var(--border);         
+        width: 240px;
+        height: 240px;
         margin: 10px;
         box-sizing: border-box;
     }
@@ -272,13 +287,13 @@
      
     .cover .heading, .cover .caption {  
         position: absolute;
-        background: rgba(0, 0, 0, 0.7);  
+        background: var(--tertiary);  
         height: 50px;
-        width: 220px;
-        color: #FFF;                     
+        width: 240px;
+        color: var(--primary);                     
         text-align: left;                
-        padding: 10px;                   
-        font-family: "Noto Sans TC", "Arial", "sans-serif";
+        font-family: "Noto Serif TC", "Arial", "sans-serif";
+        padding: 0 10px;
         transition: top 0.3s ease, bottom 0.3s ease;
     }
 
@@ -298,11 +313,25 @@
         bottom: 0;                       
     }
 
-    .cover .caption span {
-        color: white;
+    .cover .heading a, .caption{
+        display: flex;
+        justify-content: left;
+        align-items: center;             
+        height: 100%;
+    }
+
+    .cover .heading h2 {
+        font-size: 17px;
+        text-align: left;
+        line-height: 1.2;
+    }
+
+     
+    .cover .caption span {              
+        color: var(--primary);
         font-size: 13px;
+        font-weight: 400;
         display: block;
-        padding: 5px 10px 0 10px;
     }
 </style>
 
