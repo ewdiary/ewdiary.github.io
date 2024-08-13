@@ -2,20 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ewdiary.github.io/</loc>
-    <lastmod>2024-08-04T22:05:37+08:00</lastmod>
+    <loc>https://ewdiary.github.io/posts/the_youth_synthesis_guide_album_in_brief/</loc>
+    <lastmod>2024-08-13T13:10:05+08:00</lastmod>
   </url><url>
-    <loc>https://ewdiary.github.io/posts/test/</loc>
-    <lastmod>2024-08-04T22:05:37+08:00</lastmod>
+    <loc>https://ewdiary.github.io/</loc>
+    <lastmod>2024-08-13T13:10:05+08:00</lastmod>
   </url><url>
     <loc>https://ewdiary.github.io/posts/</loc>
-    <lastmod>2024-08-04T22:05:37+08:00</lastmod>
-  </url><url>
-    <loc>https://ewdiary.github.io/tags/</loc>
-    <lastmod>2024-08-04T22:05:37+08:00</lastmod>
-  </url><url>
-    <loc>https://ewdiary.github.io/tags/test/</loc>
-    <lastmod>2024-08-04T22:05:37+08:00</lastmod>
+    <lastmod>2024-08-13T13:10:05+08:00</lastmod>
   </url><url>
     <loc>https://ewdiary.github.io/archives/</loc>
   </url><url>
@@ -24,5 +18,7 @@
     <loc>https://ewdiary.github.io/disco/</loc>
   </url><url>
     <loc>https://ewdiary.github.io/search/</loc>
+  </url><url>
+    <loc>https://ewdiary.github.io/tags/</loc>
   </url>
 </urlset>
