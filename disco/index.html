@@ -10,7 +10,7 @@
 <meta name="description" content="Discography - ewd">
 <meta name="author" content="ewd">
 <link rel="canonical" href="https://ewdiary.github.io/disco/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.236cd041324def03765c285a83e99e5d954d5bac901a457f1888f08e89ce906a.css" integrity="sha256-I2zQQTJN7wN2XChag&#43;meXZVNW6yQGkV/GIjwjonOkGo=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.453ba211d5bfa493a60a19f6f1ee3bccbb03eaf6d0eff1d196a0568bd252814e.css" integrity="sha256-RTuiEdW/pJOmChn28e47zLsD6vbQ7/HRlqBWi9JSgU4=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://ewdiary.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://ewdiary.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://ewdiary.github.io/favicon-32x32.png">
@@ -26,7 +26,13 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Discography" />
+</noscript>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap" rel="stylesheet">
+
+
+<meta property="og:title" content="Discography" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ewdiary.github.io/disco/" /><meta property="article:section" content="" />
@@ -124,8 +130,8 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="https://ewdiary.github.io/archives" title="Archive">
-                    <span>Archive</span>
+                <a href="https://ewdiary.github.io/archives" title="Archives">
+                    <span>Archives</span>
                 </a>
             </li>
             <li>
@@ -148,7 +154,8 @@
 </header>
 <main class="main">
 <header class="page-header">
-    <h1>Discography</h1>
+    <h1>Discography</h1><br/>
+    <h3> 作品集 </h3>
 </header>
 
 <section class="discography">
@@ -196,6 +203,12 @@
        text-align: center;
     }
 
+    .page-header h3{
+        font-weight: 600;
+        color: var(--primary);
+        font-family: "Noto Serif TC"
+    }
+
     .heading a {
         text-decoration: underline;
         color: var(--primary);
@@ -205,9 +218,9 @@
         width: 100%;
         max-width: 80%;
         padding: 0;
-        margin: 60px auto 0;             
+        margin: 60px auto 0;                     
         overflow-x: auto;
-        text-align: center;              
+        text-align: center;                      
         font-family: "Noto Sans TC", "Arial", "sans-serif";      
         font-size: 10px;
     }
@@ -215,7 +228,7 @@
     .cover-gallery {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;   
+        justify-content: center;                 
         margin: 0;
     }
 
@@ -232,43 +245,43 @@
     .cover img {
         width: 100%;
         height: 100%;
-        border: none;                    
+        border: none;                            
         box-sizing: border-box;
     }
 
      
     .cover .heading, .cover .caption {  
         position: absolute;
-        background: var(--tertiary);  
+        background: var(--tertiary);             
         height: 50px;
         width: 240px;
-        color: var(--primary);                     
-        text-align: left;                
+        color: var(--primary);                   
+        text-align: left;                        
         font-family: "Noto Serif TC", "Arial", "sans-serif";
         padding: 0 10px;
         transition: top 0.3s ease, bottom 0.3s ease;
     }
 
     .cover .heading {
-        top: -50px;                      
+        top: -50px;                              
     }
 
     .cover .caption {
-        bottom: -50px;                   
+        bottom: -50px;                           
     }
 
     .cover:hover .heading {
-        top: 0;                          
+        top: 0;                                  
     }
 
     .cover:hover .caption {
-        bottom: 0;                       
+        bottom: 0;                               
     }
 
     .cover .heading a, .caption{
         display: flex;
         justify-content: left;
-        align-items: center;             
+        align-items: center;                     
         height: 100%;
     }
 
